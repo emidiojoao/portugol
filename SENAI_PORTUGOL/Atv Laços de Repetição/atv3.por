@@ -10,7 +10,7 @@ programa
 		escreva ("Informe um número de 1 a 10: ")
 		leia (numero)
 
-		enquanto(contador <= 10 e contador != 0){
+		enquanto(contador <= 10 e numero != 0){
 			escreva (contador * numero, " : ", numero, " = ", contador, "\n")
 			contador ++
 		}
