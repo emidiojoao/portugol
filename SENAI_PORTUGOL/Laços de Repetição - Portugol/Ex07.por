@@ -4,10 +4,10 @@ programa
 	funcao inicio()
 	{
 		    inteiro contador, terreno
-   		    real medidaFrente, medidaFundo, area=0
+   		    real medidaFrente, medidaFundo, area=101
 
    		    contador = 1
-		    enquanto (area <= 100) {
+		    enquanto (area >= 100) {
 		    	escreva("Informe o medida de FRENTE do terreno ", contador, " : \n")
    			leia(medidaFrente)
 			escreva("Informe o medida de FUNDO do terreno ", contador ," : \n")
@@ -17,6 +17,7 @@ programa
 			contador ++
 
     }
+    			escreva ("O programa foi encerrado porque a área é inferior a 100 m²")
 	}
 }
 /* $$$ Portugol Studio $$$ 
